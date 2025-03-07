@@ -48,3 +48,9 @@ function sortearAmigo() {
     //mostra o nome sorteado na tela
     resultado.textContent = `O amigo secreto sorteado é: ${nomeSorteado}`;
 }
+
+//função para resetar a lista
+    function limparLista() {
+    nomes.length = 0;
+    location.reload();
+}

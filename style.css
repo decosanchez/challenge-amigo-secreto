@@ -121,6 +121,11 @@ button {
     border-radius: 0 25px 25px 0;
 }
 
+.button-clear {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+}
+
 .button-add:hover {
     background-color: #a1a1a1;
 }
@@ -130,7 +135,7 @@ ul {
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 32px;
     margin: 20px 0;
 }
 
